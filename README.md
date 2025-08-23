@@ -15,7 +15,7 @@
 
 <h2>Languages and Utilities Used</h2>
 
-- <b>Azure CLoud<b>
+- <b>Azure Cloud<b>
 - <b>Powershell</b> 
 
 
