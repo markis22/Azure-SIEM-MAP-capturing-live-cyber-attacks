@@ -17,7 +17,6 @@
 
 - <b>Azure CLoud<b>
 - <b>Powershell</b> 
-- <b>Virtual Box</b>
 
 
 <h2>Environments Used </h2>
