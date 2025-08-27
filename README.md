@@ -61,11 +61,6 @@ delete whatever configurations were set up by default and click on "Add an inbou
 <br />
 <br />
 <br />
-delete whatever configurations were set up by default and click on "Add an inbound rule": <br /> 
-<img src="https://i.imgur.com/NlXDuzU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-<br />
 Set your configurations as you see them in the screenshot below: <br /> 
 <img src="https://i.imgur.com/NlXDuzU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
@@ -88,25 +83,73 @@ Then click "Review + create" <br />
 <br /> 
 <br /> 
 <br /> 
-Next go to "Microsoft Defender for Cloud" and go to "Environment settings" <br />
+Next go to "Microsoft Defender for Cloud" --> "Environment settings" --> "Azure subscription 1" <br />
 <img src="https://i.imgur.com/DqjQlgT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Turn on the server defender plan as you see in my screen <br />
+Don't forget to save <br />
+<img src="https://i.imgur.com/euDjdyn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Go back to your "Environment settings" and select your workstation <br />
+<img src="https://i.imgur.com/3anOosf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Make sure your server defender is also on <br />
+Don't forget to save <br />
+<img src="https://i.imgur.com/CM23EG4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Then go to "Data Collection" on the left and select "All Events"  <br />
+Don't forget to save <br />
+<img src="https://i.imgur.com/zAemqpj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Now assuming that your VM is setup and ready go back to your "Log Analysis Worksapce" <br /> 
+select your workstation --> "Virtual Machine" <br />  
+<img src="https://i.imgur.com/viXR5uu.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Connect your workstation to your VM <br />  
+<img src="https://i.imgur.com/EVFCuOd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Now go to copy your VM public IP address <br />
+<img src="https://i.imgur.com/0RSZXmw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+and paste in "Remote Desktop Connection"
+<img src="https://i.imgur.com/2QQ2OFH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Now purposefully enter a wrong username and password 
+<img src="https://i.imgur.com/A4XyrBX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Now Login with the correct username and password your setup for the VM in the beginning <br />
+Open "Event Viewer" <br />
+Look for an "Audit Failure" <br />
+<img src="https://i.imgur.com/kDuXnxF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
 
-<br /> 
-<br /> 
-<br /> 
+<br />
+<br />
+<br />
 
-<br /> 
-<br /> 
-<br /> 
-
-<br /> 
-<br /> 
-<br /> 
-
-<br /> 
-<br /> 
-<br /> 
-
-
-
+<br />
+<br />
+<br />
 <p />
