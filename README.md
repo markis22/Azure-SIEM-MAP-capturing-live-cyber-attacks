@@ -38,8 +38,10 @@ Now click create and let's set it up:  <br/>
 <img src="https://i.imgur.com/WOLAbRJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<br />
 Create a new resource group and name it "Honeypotlab"  <br />
 <img src="https://i.imgur.com/lwJ7B0l.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 <br />
 Make sure the image is Windows 11 Pro and type your username and password for the VM <br />
@@ -47,27 +49,64 @@ Make sure the image is Windows 11 Pro and type your username and password for th
 <img src="https://i.imgur.com/Okd6Ohm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<br />
 Hit "next" twice until you are in the "networking" section, and for the NIC network security group, select Advanced <br />
 Under "Configure network security group," click "Create new": <br /> 
 <img src="https://i.imgur.com/lz71v10.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
 <br />
 <br />
 delete whatever configurations were set up by default and click on "Add an inbound rule": <br /> 
 <img src="https://i.imgur.com/4B7q6zd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<br />
 delete whatever configurations were set up by default and click on "Add an inbound rule": <br /> 
 <img src="https://i.imgur.com/NlXDuzU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+<br />
+Set your configurations as you see them in the screenshot below: <br /> 
+<img src="https://i.imgur.com/NlXDuzU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
+Then don't forget to click "Add" then "OK" <br />
+Then finall "Create + Review" and boom! Your Virtual Machine is set up! <br /> 
+<img src="https://i.imgur.com/9rnPHBK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
+Now let's navigate to "Log Analytics Workspaces" <br /> 
+<img src="https://i.imgur.com/ZUfHRg1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<br />
+Create a new Log Analytics Workspaces and set the configurations as you see in the screenshot <br />
+Then click "Review + create" <br />
+<img src="https://i.imgur.com/fiNkiLZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br /> 
+<br /> 
+<br /> 
+Next go to "Microsoft Defender for Cloud" and go to "Environment settings" <br />
+<img src="https://i.imgur.com/DqjQlgT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
-<br />
-<br />
+<br /> 
+<br /> 
+<br /> 
 
-<br />
-<br />
+<br /> 
+<br /> 
+<br /> 
 
-<br />
-<br />
+<br /> 
+<br /> 
+<br /> 
+
+<br /> 
+<br /> 
+<br /> 
+
+
 
 <p />
