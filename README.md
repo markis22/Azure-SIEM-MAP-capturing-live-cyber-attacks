@@ -170,23 +170,28 @@
  <br />
  <br />
  Go back to the VM and run the PowerShell code and save the output file to "failed_rdp.log" <br />
- 
+ <img src="https://i.imgur.com/cV2zZD1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
  <br />
  <br />
  <br />
  Back to Azure, navigate to "Log Analysis Workspace", select your workspace and look up "Tables" <br />
  Select Next to "Collection Paths" and set configurations as you see them on the image below <br />
- 
+ Then in "Details" call it "GEO_Failed_rdp" <br /> 
+ Then "Review + Create" <br />
+ <img src="https://i.imgur.com/SmLIcD6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
  Then in "Log Analysis Workspace" head to "logs" and at the top right change it to "KQL mode" <br /> 
- 
+ Then write a line of code "SecurityEvent | where EventID == 4625" <br />
+ This will return all the failed rdp logs <br />
+ <img src="https://i.imgur.com/7hnZM5E.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
- 
- 
+ Now wait about 15 minutes for the VM to sink logs properly <br />
+ From there run "GEO_Failed_rdp", you should see a list a list of outputs <br />
+ <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
@@ -194,6 +199,31 @@
  <br />
  <br />
  <br />
+
+ <br />
+ <br />
+ <br />
+
+ <br />
+ <br />
+ <br />
+
+ <br />
+ <br />
+ <br />
+
+ <br />
+ <br />
+ <br />
+
+ <br />
+ <br />
+ <br />
+
+ <br />
+ <br />
+ <br />
+
 
 </p>
 
