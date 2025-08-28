@@ -28,7 +28,7 @@
 
 <p align="center">
  <br />
- First, set up a new account in <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount" target="_blank">Azure</a> by starting a free trial: <br/>
+ First, set up a new account in Azure by starting a <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount" target="_blank">free trial</a>: <br/>
  <br />
  When you have an account set up, head over to portal.azure.com and in the search bar look up virtual machines <br />
  <img src="https://i.imgur.com/S3fKsjK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
