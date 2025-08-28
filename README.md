@@ -170,19 +170,24 @@
  <br />
  <br />
  <br />
+ Go back to the VM and run the PowerShell code and save the output file to "failed_rdp.log" <br />
  
  <br />
  <br />
  <br />
-
+ Back to Azure, navigate to "Log Analysis Workspace", select your workspace and look up "Tables" <br />
+ Select Next to "Collection Paths" and set configurations as you see them on the image below <br />
+ 
  <br />
  <br />
  <br />
-
+ Then in "Log Analysis Workspace" head to "logs" and at the top right change it to "KQL mode" <br /> 
+ 
  <br />
  <br />
  <br />
-
+ 
+ 
  <br />
  <br />
  <br />
