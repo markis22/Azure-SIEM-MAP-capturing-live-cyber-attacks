@@ -128,7 +128,7 @@
  <br /> 
  <br /> 
  and paste in "Remote Desktop Connection" <br />
- <img src="https://i.imgur.com/2QQ2OFH.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/kJ8ohPb.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
  <br /> 
  <br /> 
  <br /> 
