@@ -165,7 +165,7 @@
  <br />
  <br /> 
  Back to your Host machine, in Azure, navigate to "Log Analytics query packs" and create a new one and configure it the same way you see it on screen <br />
- Click "Review + Creae=te" when done <br />
+ Click "Review + Create" when done <br />
  <img src="https://i.imgur.com/TQ9hAt0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
