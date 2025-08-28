@@ -139,12 +139,17 @@ Now purposefully enter a wrong username and password
 <br /> 
 Now Login with the correct username and password your setup for the VM in the beginning <br />
 Open "Event Viewer" <br />
-Look for an "Audit Failure" <br />
+Under "Windows Logs" --> "Security" --> Look for an "Audit Failure" <br />
+You'll see the failed username and the "Failure Reason" was a "Unknown Username or Password" <br />
 <img src="https://i.imgur.com/kDuXnxF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 <br />
-
+Now to make your VM vulnerable to attacks you will turn off your firewall. <br />
+In Windows VM search "wf.msc" <br />
+Select "Windows Defender Firewall with Advanced Security...." <br />
+and turn off your firewall for Domain, Private and Domestic Profiles <br />
+<img src="https://i.imgur.com/vM1ATPH.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> 
 <br />
 <br />
 <br />
