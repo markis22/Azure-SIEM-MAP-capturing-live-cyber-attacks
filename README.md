@@ -27,10 +27,10 @@
 <h2>Program walk-through:</h2>
 
 <p align="center">
- First things first, we will set up a new account in Azure by starting a free trial: <br/>
- https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount <br />
  <br />
- Then, when you have an account set up, head over to portal.azure.com and in the search bar look up virtual machines <br />
+ First, set up a new account in <a href="https://azure.microsoft.com/en-us/pricing/purchase-options/azure-account?icid=azurefreeaccount" target="_blank">Azure</a> by starting a free trial: <br/>
+ <br />
+ When you have an account set up, head over to portal.azure.com and in the search bar look up virtual machines <br />
  <img src="https://i.imgur.com/S3fKsjK.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
@@ -77,7 +77,7 @@
  <br />
  <br />
  <br />
- Create a new Log Analytics Workspaces and set the configurations as you see in the screenshot <br />
+ Create a new Log Analytics Workspace and set the configurations as you see in the screenshot <br />
  Then click "Review + create" <br />
  <img src="https://i.imgur.com/fiNkiLZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br /> 
