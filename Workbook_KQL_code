@@ -1,0 +1,12 @@
+GEO_Failed_rdp_CL
+| extend CSVFields  = split(RawData, ',') 
+| extend timestamp_CF  = todatetime(CSVFields[8])   
+| extend label_CF    = tostring(CSVFields[7])
+| extend country_CF = tostring(CSVFields[6])
+| extend state_CF = tostring(CSVFields[5])
+| extend source_CF = tostring(CSVFields[4])
+| extend user_CF = tostring(CSVFields[3])
+| extend dest_CF = tostring(CSVFields[2])
+| extend longitude_CF = tostring(CSVFields[1])
+| extend latitude_CF = tostring(CSVFields[0])
+| summarize event_count=count() by source_CF, tostring(latitude_CF), tostring(longitude_CF), country_CF, label_CF, dest_CF 
