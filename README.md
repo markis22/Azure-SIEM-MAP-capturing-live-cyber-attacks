@@ -2,6 +2,7 @@
 
 <h2>Description</h2>
 
+This project demonstrates how exposed cloud infrastructure attracts adversaries worldwide. I deployed a Windows VM on Microsoft Azure with all inbound ports open and the firewall disabled to intentionally simulate a vulnerable host. Using a custom script, I collected and logged failed login attempt data including source IP, username, city, country, longitude, and latitude. This data was then ingested into Azure for visualization on a global map, allowing me to track attack origins, frequency, and patterns in real time. The project highlights the scale of brute-force attempts against unsecured systems and the importance of proper cloud security practices.
 
 <br />
 
@@ -215,39 +216,45 @@
  <br />
  <br />
  <br />
-
-
+ So now that we want to leave the script running on the VM for a few hours until we get some adversaries trying to log into our VM <br />
+ When you start to get a few failed login attempt logs, you can move on to the next step <br />
+ <img src="https://i.imgur.com/121MavR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br /> 
+ <br />
+ For "Log analysis workspace", select the drop-down menu and select "log-analysis-workspace and write your 
+ <a href="https://github.com/markis22/Azure-SIEM-MAP-capturing-live-cyber-attacks/blob/main/Workbook_KQL_code" target="_blank">Query code</a> <br />
+ If you don't get many results, that's fine, you need to wait some time for the adversaries to find and attack your VM <br />  
+ In the drop-down menu under "Visualization," select "Map" <br />
  <img src="https://i.imgur.com/Ag8Wybf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
- So now that we want to leave script run on the VM for a few hours until we get some adversaries trying to log into our VM <br />
- <img src="https://i.imgur.com/121MavR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
- 
-
+ Copy the map settings configurations <br />
+ Then click on "Apply" and "Save and Close" <br />
+ <img src="https://i.imgur.com/WijTzVP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/W8K5ygm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
-
+ Don't forget to save your Workbook! <br />
+ <img src="https://i.imgur.com/dpkd43V.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
-
+ Now leave <a href="https://github.com/markis22/Azure-SIEM-MAP-capturing-live-cyber-attacks/blob/main/Security_Log_Exporter" target="_blank">Security Log Exporter</a> running on your VM, and at the top, you adjust it to refresh the map every "10 minutes" <br />
+ Here are my results for the honeypot after leaving it for about 12hours as of 8/30/2025 <br />
+<br /> 
+If you did this honeypot lab with me, please share with me your findings on <a href="https://www.linkedin.com/in/mark-shenouda-908708245/" target="_blank">LinkedIn!!</a> <br />
+ <img src="https://i.imgur.com/GKjEpif.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
-
+<br />
  <br />
  <br />
- <br />
-
- <br />
- <br />
- <br />
-
-
 </p>
 
