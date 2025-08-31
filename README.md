@@ -189,20 +189,44 @@
  <br />
  <br />
  <br />
- Now wait about 15 minutes for the VM to sink logs properly <br />
+ Now wait about 15 minutes for the VM to sync logs properly <br />
  From there run "GEO_Failed_rdp", you should see a list a list of outputs <br />
- <img src="" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/5A1tVRj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br />
+ <br />
+ Now let's set up the workspace that will help us map out the attacks we are getting on our Honeypot <br />
+ <br />
+ <br />
+ <br />
+ In Azure, navigate to "Microsoft Defender on Cloud"<br />
+ <img src="https://i.imgur.com/zwAXIG6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br />
+ <br />
+ On the left-hand side, you will see a list of options, go to "Workbooks" and select "New" <br />
+ <img src="https://i.imgur.com/AtxnfaA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br />
+ <br />
+ Click on "Add" and when the drop-down menu appears, select "Add query" <br />
+ <img src="https://i.imgur.com/SxSJyQ2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
  <br />
  <br />
  <br />
 
- <br />
- <br />
- <br />
 
+ <img src="https://i.imgur.com/Ag8Wybf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
+ So now that we want to leave script run on the VM for a few hours until we get some adversaries trying to log into our VM <br />
+ <img src="https://i.imgur.com/121MavR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br />
+ <br />
+ <br />
+ 
 
  <br />
  <br />
