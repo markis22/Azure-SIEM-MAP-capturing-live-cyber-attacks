@@ -235,8 +235,8 @@ This project demonstrates how exposed cloud infrastructure attracts adversaries 
  <br />
  Copy the map settings configurations <br />
  Then click on "Apply" and "Save and Close" <br />
- <img src="https://i.imgur.com/WijTzVP.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <img src="https://i.imgur.com/W8K5ygm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/WijTzVP.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/W8K5ygm.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
  <br />
@@ -252,8 +252,6 @@ If you did this honeypot lab with me, please share with me your findings on <a h
  <img src="https://i.imgur.com/GKjEpif.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
  <br />
- <br />
-<br />
  <br />
  <br />
 </p>
