@@ -1,4 +1,6 @@
-﻿# Get API key from here: https://ipgeolocation.io/
+# Get-Process -Name wermgr -ErrorAction SilentlyContinue | Stop-Process -Force
+
+# Get API key from here: https://ipgeolocation.io/
 $API_KEY      = "<PLEASE PUT IN YOUR OWN API KEY HERE>" # ************
 $LOGFILE_NAME = "failed_rdp.log"
 $LOGFILE_PATH = "C:\ProgramData\$($LOGFILE_NAME)"
