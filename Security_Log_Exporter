@@ -1,4 +1,4 @@
-# Get-Process -Name wermgr -ErrorAction SilentlyContinue | Stop-Process -Force
+# Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 # Get API key from here: https://ipgeolocation.io/
 $API_KEY      = "<PLEASE PUT IN YOUR OWN API KEY HERE>" # ************
